@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E54EBC7521E3E12500CB0531 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EBC7421E3E12500CB0531 /* NSObject.swift */; };
+		E550670621EE62F900EB8023 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550670521EE62F900EB8023 /* RoundedButton.swift */; };
+		E575AD9E21EFC3870083B389 /* ResourcesDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E575AD9D21EFC3870083B389 /* ResourcesDatasource.swift */; };
+		E575ADA121EFCD060083B389 /* ResourcesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E575ADA021EFCD060083B389 /* ResourcesCollectionViewCell.swift */; };
+		E5928B5021640D42005DB4B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5928B4F21640D42005DB4B2 /* AppDelegate.swift */; };
+		E5928B5221640D42005DB4B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5928B5121640D42005DB4B2 /* ViewController.swift */; };
+		E5928B5521640D42005DB4B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5928B5321640D42005DB4B2 /* Main.storyboard */; };
+		E5928B5821640D42005DB4B2 /* emerald.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5928B5621640D42005DB4B2 /* emerald.xcdatamodeld */; };
+		E5928B5A21640D47005DB4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5928B5921640D47005DB4B2 /* Assets.xcassets */; };
+		E5928B5D21640D47005DB4B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5928B5B21640D47005DB4B2 /* LaunchScreen.storyboard */; };
+		E5E6263321ECFD1D0021F1CE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E6263121ECFD1D0021F1CE /* Interface.storyboard */; };
+		E5E6263521ECFD290021F1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E6263421ECFD290021F1CE /* Assets.xcassets */; };
+		E5E6263C21ECFD2A0021F1CE /* watchlock Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E5E6263B21ECFD290021F1CE /* watchlock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E5E6264121ECFD2A0021F1CE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6264021ECFD2A0021F1CE /* InterfaceController.swift */; };
+		E5E6264321ECFD2A0021F1CE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6264221ECFD2A0021F1CE /* ExtensionDelegate.swift */; };
+		E5E6264521ECFD2A0021F1CE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6264421ECFD2A0021F1CE /* NotificationController.swift */; };
+		E5E6264721ECFD2A0021F1CE /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6264621ECFD2A0021F1CE /* ComplicationController.swift */; };
+		E5E6264921ECFD2A0021F1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E6264821ECFD2A0021F1CE /* Assets.xcassets */; };
+		E5E6264E21ECFD2B0021F1CE /* watchlock.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E5E6262F21ECFD1D0021F1CE /* watchlock.app */; };
+		E5FD68E621879FAE00F92E2D /* BTResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FD68E421879FAD00F92E2D /* BTResource.swift */; };
+		E5FD68E721879FAE00F92E2D /* BTDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FD68E521879FAE00F92E2D /* BTDiscovery.swift */; };
+		E5FD68ED2187A7B700F92E2D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FD68EC2187A7B600F92E2D /* CoreBluetooth.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5E6263D21ECFD2A0021F1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5928B4421640D42005DB4B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5E6263A21ECFD290021F1CE;
+			remoteInfo = "watchlock Extension";
+		};
+		E5E6264C21ECFD2B0021F1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5928B4421640D42005DB4B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5E6262E21ECFD1C0021F1CE;
+			remoteInfo = watchlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E5E6265421ECFD2B0021F1CE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E5E6263C21ECFD2A0021F1CE /* watchlock Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E6265621ECFD2B0021F1CE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E5E6264E21ECFD2B0021F1CE /* watchlock.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E54EBC7421E3E12500CB0531 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		E550670521EE62F900EB8023 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		E575AD9D21EFC3870083B389 /* ResourcesDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesDatasource.swift; sourceTree = "<group>"; };
+		E575ADA021EFCD060083B389 /* ResourcesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5928B4C21640D42005DB4B2 /* emerald.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emerald.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5928B4F21640D42005DB4B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5928B5121640D42005DB4B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5928B5421640D42005DB4B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5928B5721640D42005DB4B2 /* emerald.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = emerald.xcdatamodel; sourceTree = "<group>"; };
+		E5928B5921640D47005DB4B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5928B5C21640D47005DB4B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5928B5E21640D47005DB4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E6262F21ECFD1D0021F1CE /* watchlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E6263221ECFD1D0021F1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E5E6263421ECFD290021F1CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5E6263621ECFD290021F1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E6263B21ECFD290021F1CE /* watchlock Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchlock Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E6264021ECFD2A0021F1CE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E5E6264221ECFD2A0021F1CE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E5E6264421ECFD2A0021F1CE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		E5E6264621ECFD2A0021F1CE /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		E5E6264821ECFD2A0021F1CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5E6264A21ECFD2A0021F1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E6264B21ECFD2B0021F1CE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		E5FD68E421879FAD00F92E2D /* BTResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTResource.swift; sourceTree = "<group>"; };
+		E5FD68E521879FAE00F92E2D /* BTDiscovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTDiscovery.swift; sourceTree = "<group>"; };
+		E5FD68EB2187A0A000F92E2D /* emerald.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = emerald.entitlements; sourceTree = "<group>"; };
+		E5FD68EC2187A7B600F92E2D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5928B4921640D42005DB4B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FD68ED2187A7B700F92E2D /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E6263821ECFD290021F1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E550D42521EE7F5A000C6E00 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				E575AD9F21EFCCEA0083B389 /* cell */,
+				E575AD9C21EFC2850083B389 /* datasource */,
+				E550D42C21EE82CC000C6E00 /* custom */,
+				E550D42B21EE82AC000C6E00 /* collection */,
+				E550D42821EE808E000C6E00 /* extension */,
+				E550D42721EE8088000C6E00 /* module */,
+				E5928B5121640D42005DB4B2 /* ViewController.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		E550D42621EE7F6E000C6E00 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E5928B5321640D42005DB4B2 /* Main.storyboard */,
+				E5928B5B21640D47005DB4B2 /* LaunchScreen.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		E550D42721EE8088000C6E00 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				E5FD68E521879FAE00F92E2D /* BTDiscovery.swift */,
+				E5FD68E421879FAD00F92E2D /* BTResource.swift */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		E550D42821EE808E000C6E00 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				E54EBC7421E3E12500CB0531 /* NSObject.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		E550D42B21EE82AC000C6E00 /* collection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = collection;
+			sourceTree = "<group>";
+		};
+		E550D42C21EE82CC000C6E00 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				E550670521EE62F900EB8023 /* RoundedButton.swift */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		E575AD9C21EFC2850083B389 /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				E575AD9D21EFC3870083B389 /* ResourcesDatasource.swift */,
+			);
+			path = datasource;
+			sourceTree = "<group>";
+		};
+		E575AD9F21EFCCEA0083B389 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				E575ADA021EFCD060083B389 /* ResourcesCollectionViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		E5928B4321640D42005DB4B2 = {
+			isa = PBXGroup;
+			children = (
+				E5928B4E21640D42005DB4B2 /* emerald */,
+				E5E6263021ECFD1D0021F1CE /* watchlock */,
+				E5E6263F21ECFD2A0021F1CE /* watchlock Extension */,
+				E5928B4D21640D42005DB4B2 /* Products */,
+				E5FD68E82187A0A000F92E2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E5928B4D21640D42005DB4B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5928B4C21640D42005DB4B2 /* emerald.app */,
+				E5E6262F21ECFD1D0021F1CE /* watchlock.app */,
+				E5E6263B21ECFD290021F1CE /* watchlock Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5928B4E21640D42005DB4B2 /* emerald */ = {
+			isa = PBXGroup;
+			children = (
+				E5FD68EB2187A0A000F92E2D /* emerald.entitlements */,
+				E5928B5E21640D47005DB4B2 /* Info.plist */,
+				E5928B4F21640D42005DB4B2 /* AppDelegate.swift */,
+				E5928B5921640D47005DB4B2 /* Assets.xcassets */,
+				E550D42521EE7F5A000C6E00 /* classes */,
+				E5928B5621640D42005DB4B2 /* emerald.xcdatamodeld */,
+				E550D42621EE7F6E000C6E00 /* views */,
+			);
+			path = emerald;
+			sourceTree = "<group>";
+		};
+		E5E6263021ECFD1D0021F1CE /* watchlock */ = {
+			isa = PBXGroup;
+			children = (
+				E5E6263121ECFD1D0021F1CE /* Interface.storyboard */,
+				E5E6263421ECFD290021F1CE /* Assets.xcassets */,
+				E5E6263621ECFD290021F1CE /* Info.plist */,
+			);
+			path = watchlock;
+			sourceTree = "<group>";
+		};
+		E5E6263F21ECFD2A0021F1CE /* watchlock Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E5E6264021ECFD2A0021F1CE /* InterfaceController.swift */,
+				E5E6264221ECFD2A0021F1CE /* ExtensionDelegate.swift */,
+				E5E6264421ECFD2A0021F1CE /* NotificationController.swift */,
+				E5E6264621ECFD2A0021F1CE /* ComplicationController.swift */,
+				E5E6264821ECFD2A0021F1CE /* Assets.xcassets */,
+				E5E6264A21ECFD2A0021F1CE /* Info.plist */,
+				E5E6264B21ECFD2B0021F1CE /* PushNotificationPayload.apns */,
+			);
+			path = "watchlock Extension";
+			sourceTree = "<group>";
+		};
+		E5FD68E82187A0A000F92E2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5FD68EC2187A7B600F92E2D /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5928B4B21640D42005DB4B2 /* emerald */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5928B6121640D47005DB4B2 /* Build configuration list for PBXNativeTarget "emerald" */;
+			buildPhases = (
+				E5928B4821640D42005DB4B2 /* Sources */,
+				E5928B4921640D42005DB4B2 /* Frameworks */,
+				E5928B4A21640D42005DB4B2 /* Resources */,
+				E5E6265621ECFD2B0021F1CE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5E6264D21ECFD2B0021F1CE /* PBXTargetDependency */,
+			);
+			name = emerald;
+			productName = emerald;
+			productReference = E5928B4C21640D42005DB4B2 /* emerald.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5E6262E21ECFD1C0021F1CE /* watchlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5E6265521ECFD2B0021F1CE /* Build configuration list for PBXNativeTarget "watchlock" */;
+			buildPhases = (
+				E5E6262D21ECFD1C0021F1CE /* Resources */,
+				E5E6265421ECFD2B0021F1CE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5E6263E21ECFD2A0021F1CE /* PBXTargetDependency */,
+			);
+			name = watchlock;
+			productName = watchlock;
+			productReference = E5E6262F21ECFD1D0021F1CE /* watchlock.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E5E6263A21ECFD290021F1CE /* watchlock Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5E6265321ECFD2B0021F1CE /* Build configuration list for PBXNativeTarget "watchlock Extension" */;
+			buildPhases = (
+				E5E6263721ECFD290021F1CE /* Sources */,
+				E5E6263821ECFD290021F1CE /* Frameworks */,
+				E5E6263921ECFD290021F1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchlock Extension";
+			productName = "watchlock Extension";
+			productReference = E5E6263B21ECFD290021F1CE /* watchlock Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5928B4421640D42005DB4B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "M.A. Eng.";
+				TargetAttributes = {
+					E5928B4B21640D42005DB4B2 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+					E5E6262E21ECFD1C0021F1CE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E5E6263A21ECFD290021F1CE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E5928B4721640D42005DB4B2 /* Build configuration list for PBXProject "emerald" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5928B4321640D42005DB4B2;
+			productRefGroup = E5928B4D21640D42005DB4B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5928B4B21640D42005DB4B2 /* emerald */,
+				E5E6262E21ECFD1C0021F1CE /* watchlock */,
+				E5E6263A21ECFD290021F1CE /* watchlock Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5928B4A21640D42005DB4B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5928B5D21640D47005DB4B2 /* LaunchScreen.storyboard in Resources */,
+				E5928B5A21640D47005DB4B2 /* Assets.xcassets in Resources */,
+				E5928B5521640D42005DB4B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E6262D21ECFD1C0021F1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E6263521ECFD290021F1CE /* Assets.xcassets in Resources */,
+				E5E6263321ECFD1D0021F1CE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E6263921ECFD290021F1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E6264921ECFD2A0021F1CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5928B4821640D42005DB4B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5928B5221640D42005DB4B2 /* ViewController.swift in Sources */,
+				E5FD68E721879FAE00F92E2D /* BTDiscovery.swift in Sources */,
+				E575AD9E21EFC3870083B389 /* ResourcesDatasource.swift in Sources */,
+				E5FD68E621879FAE00F92E2D /* BTResource.swift in Sources */,
+				E54EBC7521E3E12500CB0531 /* NSObject.swift in Sources */,
+				E550670621EE62F900EB8023 /* RoundedButton.swift in Sources */,
+				E575ADA121EFCD060083B389 /* ResourcesCollectionViewCell.swift in Sources */,
+				E5928B5021640D42005DB4B2 /* AppDelegate.swift in Sources */,
+				E5928B5821640D42005DB4B2 /* emerald.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E6263721ECFD290021F1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E6264521ECFD2A0021F1CE /* NotificationController.swift in Sources */,
+				E5E6264721ECFD2A0021F1CE /* ComplicationController.swift in Sources */,
+				E5E6264321ECFD2A0021F1CE /* ExtensionDelegate.swift in Sources */,
+				E5E6264121ECFD2A0021F1CE /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5E6263E21ECFD2A0021F1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5E6263A21ECFD290021F1CE /* watchlock Extension */;
+			targetProxy = E5E6263D21ECFD2A0021F1CE /* PBXContainerItemProxy */;
+		};
+		E5E6264D21ECFD2B0021F1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5E6262E21ECFD1C0021F1CE /* watchlock */;
+			targetProxy = E5E6264C21ECFD2B0021F1CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5928B5321640D42005DB4B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5928B5421640D42005DB4B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5928B5B21640D47005DB4B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5928B5C21640D47005DB4B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E5E6263121ECFD1D0021F1CE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5E6263221ECFD1D0021F1CE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5928B5F21640D47005DB4B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5928B6021640D47005DB4B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5928B6221640D47005DB4B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QU4A969CM;
+				INFOPLIST_FILE = emerald/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moritzalmeida.eng.emerald;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5928B6321640D47005DB4B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QU4A969CM;
+				INFOPLIST_FILE = emerald/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moritzalmeida.eng.emerald;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5E6264F21ECFD2B0021F1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QU4A969CM;
+				IBSC_MODULE = watchlock_Extension;
+				INFOPLIST_FILE = watchlock/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = moritzalmeida.eng.emerald.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		E5E6265021ECFD2B0021F1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QU4A969CM;
+				IBSC_MODULE = watchlock_Extension;
+				INFOPLIST_FILE = watchlock/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = moritzalmeida.eng.emerald.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		E5E6265121ECFD2B0021F1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QU4A969CM;
+				INFOPLIST_FILE = "watchlock Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moritzalmeida.eng.emerald.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		E5E6265221ECFD2B0021F1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QU4A969CM;
+				INFOPLIST_FILE = "watchlock Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = moritzalmeida.eng.emerald.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5928B4721640D42005DB4B2 /* Build configuration list for PBXProject "emerald" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5928B5F21640D47005DB4B2 /* Debug */,
+				E5928B6021640D47005DB4B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5928B6121640D47005DB4B2 /* Build configuration list for PBXNativeTarget "emerald" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5928B6221640D47005DB4B2 /* Debug */,
+				E5928B6321640D47005DB4B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5E6265321ECFD2B0021F1CE /* Build configuration list for PBXNativeTarget "watchlock Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E6265121ECFD2B0021F1CE /* Debug */,
+				E5E6265221ECFD2B0021F1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5E6265521ECFD2B0021F1CE /* Build configuration list for PBXNativeTarget "watchlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E6264F21ECFD2B0021F1CE /* Debug */,
+				E5E6265021ECFD2B0021F1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E5928B5621640D42005DB4B2 /* emerald.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E5928B5721640D42005DB4B2 /* emerald.xcdatamodel */,
+			);
+			currentVersion = E5928B5721640D42005DB4B2 /* emerald.xcdatamodel */;
+			path = emerald.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E5928B4421640D42005DB4B2 /* Project object */;
+}
